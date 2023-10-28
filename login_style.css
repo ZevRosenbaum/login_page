@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    margin: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile {
+    width: 140px;
+    height: 120px;
+    margin: auto;
+    align-content: center;
+}
+
+input {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    border: none;
+    outline: none;
+    transition: width 0.4s ease-in-out;
+    border-bottom: 2px solid gray;
+}
+
+input:focus {
+    width: 18%;
+}
+
+.login {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .95rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.login:hover,
+.login:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.login:hover {
+    transform: translateY(-1px);
+}
+
+.login:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}

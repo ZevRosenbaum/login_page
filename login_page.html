@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="login_style.css">
+<title>Login</title>
+</head>
+<body>
+<!--
+Welcome header
+profile photo
+
+username + text input
+password + text input
+
+login button
+ -->
+<h1>Welcome</h1>
+<img src="circle-headshot.png" alt="profile_photo" class="profile"><br><br>
+<text><b>Username</b></text><br>
+<input type="text" id="username" name="username"><br><br>
+<text><b>Password</b></text><br>
+<input type="text" id="password" name="password"><br><br>
+<button type="button" onclick="login()" id="login_button" class="login">Login</button>
+
+<script>
+    function login() {
+        window.alert("That\'s all folks!");
+        window.location.replace("login_page.html");
+    }
+</script>
+
+</body>
+</html>
